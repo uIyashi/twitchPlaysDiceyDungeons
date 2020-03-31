@@ -23,7 +23,6 @@ class Base:
     def generateAtkPos(self, nbAtk):
         # A moins de trouver une solution universelle,
         # faut hardcoder tout ça. ah well.
-        # self.atkPos.append((290+(()),685)
         pass
 
     def debugPosDes(self):
