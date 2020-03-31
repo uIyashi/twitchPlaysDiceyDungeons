@@ -36,7 +36,7 @@ class Warrior(Base):
         # Le guerrier commence avec 2 dés
         super().__init__()
         self.generateDicePos()
-        self.generateAtkPos(1) # Par défaut
+        self.generateAtkPos(1)
     
     def generateAtkPos(self, nbCols):
         # Le warrior a le reroll.
