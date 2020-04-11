@@ -8,4 +8,4 @@ alt: Comment ça marche vscode avec github?????? Il veut pas publish si le nom d
 - Faire la navigation sur la carte (hors combat)
 - Faire en sorte que ça détecte automatiquement le nombre de colonnes d'attaques
 - Je vais devoir utiliser opencv, n'est ce pas?
-- Coder les autres persos.
+- Coder les autres persos.N
