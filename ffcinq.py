@@ -25,9 +25,9 @@ class Manette():
         # Number
         if command[:-1] in self.keys and command[-1:] in "123456789":
             for _ in range(int(command[-1:])):
-                pyautogui.keyDown(self.keys[command])
-                pyautogui.keyUp(self.keys[command])
-                sleep(0.2)
+                pyautogui.keyDown(self.keys[command[:-1]])
+                pyautogui.keyUp(self.keys[command[:-1]])
+                sleep(0.1)
 
 
 testRun = Manette()
