@@ -86,7 +86,7 @@ class Warrior(Base):
             pyautogui.mouseDown()
             pyautogui.mouseUp()
             return
-        if arg[1] not in ["limitbreak", "reroll", "endturn"]:
+        if arg[1] not in ["limitbreak", "endturn"]:
             pyautogui.moveTo(self.dicePos[arg[0]])
             pyautogui.dragTo(self.atkPos[arg[1]], duration=0.2)
             pyautogui.mouseUp()
